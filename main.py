@@ -1,5 +1,5 @@
 import streamlit as st
-from services.pbix_extractor import PBIXExtractor
+from pbix_extractor import PBIXExtractor
 
 st.set_page_config(
     page_title="Power BI Documenter",
