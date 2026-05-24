@@ -1,32 +1,11 @@
-# Ambiente virtual
 venv/
-.env
-
-# Cache Python
 __pycache__/
 *.pyc
-
-# Arquivos temporários
-temp/
-tmp/
-
-# Power BI
-*.pbix
-*.pbit
-
-# Compactados
-*.zip
-*.rar
-
-# Logs
-*.log
-
-# VS Code
-.vscode/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Sistema operacional
+*.pyo
+*.pyd
+.env
 .DS_Store
-Thumbs.db
+outputs/*.pdf
+outputs/*.html
+temp/*
+!.gitkeep
