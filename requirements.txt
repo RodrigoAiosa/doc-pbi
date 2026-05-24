@@ -1,0 +1,11 @@
+streamlit
+pandas
+plotly
+jinja2
+weasyprint
+loguru
+pytest
+networkx
+pydantic
+beautifulsoup4
+lxml
