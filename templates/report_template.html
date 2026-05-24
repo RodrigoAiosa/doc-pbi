@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Documentação Power BI</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            padding: 40px;
+            background: #F7F9FC;
+        }
+
+        h1 {
+            color: #0E4C92;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Documentação Power BI</h1>
+
+<div class="card">
+    <h2>Páginas</h2>
+
+    <ul>
+        {% for page in data.pages %}
+        <li>{{ page }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Tabelas</h2>
+
+    <ul>
+        {% for table in data.tables %}
+        <li>{{ table }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+</body>
+</html>
